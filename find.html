@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find - Kokoa Clone</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+    <body>
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>No Service</span>
+          <!-- To Do: Wifi Icon -->
+          <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+          <!-- <i class="fa-brands fa-bluetooth-b"></i> -->
+          <i class="fa-solid fa-unlock"></i>
+          <span>101%</span>
+          <i class="fa-solid fa-battery-full fa-lg"></i>
+          <i class="fa-solid fa-bolt"></i>
+          <!--Battery Icon-->
+          <!-- Lightning Icon-->
+        </div>
+      </div>
+    
+      <header class="screen-header">
+        <h1 class="screen-header__title">Find</h1>
+        <div class="screen-header__icon">
+          <span><i class="fa-solid fa-magnifying-glass"></i></span>
+          <span>
+            <a href="setting.html">
+            <i class="fa-solid fa-gear"></i></a>
+            </span>   
+            <span class="nav_point"></span>
+        </div>
+      </header>
+
+
+
+      <main class="main-screen">
+        <div class="icon-row">
+            <div class="icon-row__icon"><i class="fa-solid fa-qrcode"></i><span>QR Code</span></div>
+            <div class="icon-row__icon"><i class="fa-regular fa-address-book"></i><span>Add by Contacts</span></div>
+            <div class="icon-row__icon"><i class="fa-solid fa-fingerprint"></i><span>Add by ID</span></div>
+            <div class="icon-row__icon"><i class="fa-regular fa-envelope"></i><span>Invite</span></div>
+        </div>
+        <div class="recommended-friends">
+            <h6 class="recommended-friends__title">Recommended-Friends</h6>
+            <span class="">You have no recommended friends.</span>
+          </div>
+
+        <div class="open-chat">
+            <div class="open-chat__header">
+                <h4>Open Chat</h4>
+                <span>Go to Openchat Home <i class="fa-solid fa-chevron-right fa-xs"></i> </span>
+            </div>
+
+            <div class="open-post">
+            <div class="open-post__column">
+                <h5 class="open-post__title">#IVE</h5>
+                <h6 class="open-post__hashtags">#ive#dive#friends</h6>
+                <div class="open-post__members">
+                <img src="https://w.namu.la/s/b185338943ce6e3b72e6aaeca46e1ac2d82ded0a4f55a8b1f427ad8308c531ac5091edf816161056a03736f174130cd214b8dd191f0af0b64c4884bd0c2b102f35e2050e55b16156d86eb92287b43ae97cab2fa0bf1d6c6d26dc77856ba93aee25c495fe9c5e8875320364d02657374d" />
+                <span class="open-post__member-count">2003 members</span>
+                <div class="divider"></div>
+                <div class="open-post__menber-status">Active</div>
+                </div>
+            </div>
+
+            <div class="open-post__column">
+                <div class="open-post__photo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgcvymcN9RbQ7w1SpS9SW9GIK9Q-31zRwydg&usqp=CAU" />
+                <div class="open-post__heart-count">
+                    <i class="fa-solid fa-heart fa-xs"></i>
+                    <span class="open-post__like">999</span>
+                </div>    
+            </div>
+        </div>
+        </div>
+        <div class="open-post">
+            <div class="open-post__column">
+                <h5 class="open-post__title">#Ive Yujin</h5>
+                <h6 class="open-post__hashtags">#ive#cute#yujin#Earth_Ar..</h6>
+                <div class="open-post__members">
+                <img src="https://w.namu.la/s/f13cfa1da6de23406ae551fd224b0d6958736e3ae01d3a75fe8d2de35c1b90f037ee049a116e7378f1954fc11cc54fbd4b4856980ca29f2b248750c5d0b66c14fa0db26318d41b9867f7437c7596fc0b81116931d32ec632bdad7b214857cb25" />
+                <span class="open-post__member-count">901 members</span>
+                <div class="divider"></div>
+                <div class="open-post__menber-status">Active</div>
+                </div>
+            </div>
+            <div class="open-post__column">
+                <div class="open-post__photo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQixhh9I7PJSGTpt2mL6EOC0lsqcaeoz4gccQ&usqp=CAU" />
+                <div class="open-post__heart-count">
+                    <i class="fa-solid fa-heart fa-xs"></i>
+                    <span class="open-post__like">901</span>
+                </div>    
+        </div>
+        </div>
+      </main>
+
+
+      <div id="no-mobile">
+        <span>
+            화면의 크기가 크니 줄여주세요
+      </span>
+    </div>
+
+
+      <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html"><i class="fa-regular fa-user fa-lg"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                  <span class="nav__notification badge">3</span>
+                  <i class="fa-regular fa-comment fa-lg"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass fa-lg"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                  <span class="nav_dot"></span>
+                  <i class="fa-solid fa-ellipsis fa-lg"></i></a>
+            </li>
+        </ul>
+      </nav>
+
+
+      <script src="https://kit.fontawesome.com/941cde399a.js" crossorigin="anonymous"></script>
+     
+
+
+    </body>
+</html>

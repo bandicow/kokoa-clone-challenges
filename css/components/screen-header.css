@@ -1,0 +1,54 @@
+.screen-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.9;
+    position: sticky;
+    top: 0;
+    width: 95%;
+    padding : 40px var(--horizontal-space) 20px var(--horizontal-space);
+    z-index: 2;
+    background-color: white;
+    /* background-color: white; */
+}
+
+.screen-header__title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.screen-header__icon  {
+    display: flex;
+    align-items: center;
+    
+}
+
+.screen-header__icon span {
+    margin: 12px;
+    position: relative;
+}
+
+
+@keyframes rotategear {
+    from {
+        transform : none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icon .fa-gear {
+    margin-left: 6px;
+}
+
+.screen-header__icon .fa-gear:hover {
+    animation: rotategear 1s linear infinite;
+}
+
+
+
+
+
+
+
